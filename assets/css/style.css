@@ -41,6 +41,19 @@ header nav ul li a {
     font-size: 22px;
 }
 
+section {
+    padding: 60px;
+}
+
+/* needs a "." before any custom CSS classes */
+/* hero style start */
+.hero {
+    /* ../ before any file paths to use relative path, telling CSS file to go up from css folder then look for images folder */
+    background-image: url("../images/hero-bg.jpg");
+    /* expands the hero section to 600px tall instead of matching the content */
+    height: 600px;
+}
+/* hero style end */
 footer {
     background: #fce138;
     width: 100%;
