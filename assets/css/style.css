@@ -1,7 +1,9 @@
-/* Sets color and font for whole body element */
-* {
+/* The asterisk sets the styling for all elements in the HTML document */
+/* replace the default content-sizing with border-box */
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
