@@ -1,5 +1,5 @@
 /* The asterisk sets the styling for all elements in the HTML document */
-/* replace the default content-sizing with border-box */
+/* replace the default content-size with border-box */
 *{
     margin: 0;
     padding: 0;
