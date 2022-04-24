@@ -75,7 +75,7 @@ section {
     set bottom, right, left, top etc to 0px to align with that relative border/corner
     static = matches the HTML flow, default setting
     relative = positions the element relative to the elements preceding it
-    absolute = positions the element within its parent container, ignores HTML flow, set the parent container positioning to relative, else it may use the wrong positioning
+    absolute = positions the element within its parent container, ignores HTML flow, if the parent container is static, it positions itself according to the Body
     fixed = positions the element relative to the browser window, no longer affected by scrolling, ignores HTML flow */
     position: absolute;
     bottom: 120px;
@@ -83,6 +83,37 @@ section {
 
 }
 /* hero form style end */
+
+.hero-form h3 {
+    margin: 0px;
+    font-size: x-large;
+}
+
+.hero-form p{
+    margin: 5px 0 15px 0;
+}
+
+.hero-form label{
+    margin: 0 5px;
+}
+
+.hero-form button{
+    background-color: #024e76;
+    color:#fce138;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.form-input{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
 
 footer {
     background: #fce138;
