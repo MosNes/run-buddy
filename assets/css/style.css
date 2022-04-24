@@ -115,21 +115,28 @@ section {
     margin-bottom: 15px;
 }
 
-.intro{
-    text-align: center;
-}
-
-.intro h2 {
+.section-title {
     /* allows padding and margin to affect the formatting, but prevents the element from taking up the entire width of the container */
-    display: inline-block;
     font-size: 55px;
     color: #024e76;
     /* puts a space between the border and the next element */
     margin-bottom: 35px;
     /* puts a space between the text and the bottom border line, and extends the border line out in 100px to the left and right */
     padding: 0 100px 20px 100px;
+    display: inline-block;
     border-bottom: 3px solid;
-    border-color:#fce138;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color:#39a6b2;
+}
+
+.intro{
+    text-align: center;
 }
 
 .intro p{
@@ -141,6 +148,31 @@ section {
     /* auto tells browser to auto-calculate the margin for the specified side(s). If set to both sides of an element, it attempts to make them even, thus centering the content. */
     /* only works for centering horizontal elements */
     margin: 0 auto;
+}
+
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps div{
+    margin-bottom: 80px;
+}
+
+.steps img{
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3{
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p{
+    color: #39a6b2;
+    font-size: 23px;
 }
 
 footer {
