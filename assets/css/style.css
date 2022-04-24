@@ -175,6 +175,10 @@ section {
     font-size: 23px;
 }
 
+.steps span{
+    font-size: 38px;
+}
+
 footer {
     background: #fce138;
     width: 100%;
