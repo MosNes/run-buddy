@@ -242,6 +242,23 @@ section {
    text-align: left;
    color: white;
    margin: 30px 0 0 60px;
+   font-size: 18px;
+}
+
+.contact-columns h3{
+    color:#fce138;
+    font-size: 32px;
+}
+
+.contact-columns p, .contact-info address{
+    line-height: 1.5;
+    margin: 20px 0;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.contact-columns a{
+    color:#fce138;
 }
 
 footer {
