@@ -52,8 +52,38 @@ section {
     background-image: url("../images/hero-bg.jpg");
     /* expands the hero section to 600px tall instead of matching the content */
     height: 600px;
+    /* setting the background-size to cover will shrink the image to fit the box */
+    background-size: cover;
+    /* setting the background-position to center sets the initial position of the image in the element */
+    background-position: center;
+    position: relative;
 }
 /* hero style end */
+
+/* hero form style start */
+.hero-form{
+    background-color: #fce138;
+    /* padding = inner margin within border of element */
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    /* can also use shorthand, border 'style' 'width' 'color' */
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    /* positioning notes:
+    set bottom, right, left, top etc to 0px to align with that relative border/corner
+    static = matches the HTML flow, default setting
+    relative = positions the element relative to the elements preceding it
+    absolute = positions the element within its parent container, ignores HTML flow, set the parent container positioning to relative, else it may use the wrong positioning
+    fixed = positions the element relative to the browser window, no longer affected by scrolling, ignores HTML flow */
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+
+}
+/* hero form style end */
+
 footer {
     background: #fce138;
     width: 100%;
