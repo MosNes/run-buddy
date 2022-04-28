@@ -266,7 +266,7 @@ have problems displaying images based on the size of their containers */
 }
 .contact-columns *{
     flex: 1;
-    margin 15px;
+    /* margin: 15px; */
 }
 
 .contact-info h2{
@@ -302,6 +302,10 @@ have problems displaying images based on the size of their containers */
 
 .contact-columns a{
     color:#fce138;
+}
+
+.contact-form h3 {
+    margin-bottom: 10px;
 }
 
 .contact-form input, .contact-form textarea{
