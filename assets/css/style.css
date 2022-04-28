@@ -258,18 +258,29 @@ have problems displaying images based on the size of their containers */
     background-color: #024e76;
 }
 
+.contact-columns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: wrap;
+}
+.contact-columns *{
+    flex: 1;
+    margin 15px;
+}
+
 .contact-info h2{
     color:#fce138
 }
 
-.contact-info iframe{
-    width: 400px;
-    height: 400px;
+.contact-columns iframe{
+    flex: 1;
+    height: 100%;
 }
 
 .contact-columns div{
-   display: inline-block;
-   width: 410px;
+   flex: 1;
+   width: 100%;
    vertical-align: top;
    text-align: left;
    color: white;
@@ -286,11 +297,32 @@ have problems displaying images based on the size of their containers */
     line-height: 1.5;
     margin: 20px 0;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .contact-columns a{
     color:#fce138;
+}
+
+.contact-form input, .contact-form textarea{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button{
+    width:100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 footer {
