@@ -137,12 +137,12 @@ section {
     /* allows padding and margin to affect the formatting, but prevents the element from taking up the entire width of the container */
     font-size: 55px;
     color: #024e76;
-    /* puts a space between the border and the next element */
-    margin-bottom: 35px;
     /* puts a space between the text and the bottom border line, and extends the border line out in 100px to the left and right */
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -151,10 +151,6 @@ section {
 
 .secondary-border {
     border-color:#39a6b2;
-}
-
-.intro{
-    text-align: center;
 }
 
 .intro p{
@@ -166,10 +162,10 @@ section {
     /* auto tells browser to auto-calculate the margin for the specified side(s). If set to both sides of an element, it attempts to make them even, thus centering the content. */
     /* only works for centering horizontal elements */
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -198,7 +194,7 @@ section {
 }
 
 .trainers{
-    text-align: center;
+    
 }
 
 .trainer{
@@ -231,16 +227,8 @@ section {
     margin-bottom: 25px;
 }
 
-.text-right{
-    text-align: right;
-}
-
-.text-left{
-    text-align: left;
-}
 
 .contact-info{
-    text-align: center;
     background-color: #024e76;
 }
 
@@ -297,4 +285,16 @@ footer h2 {
 footer div {
     line-height: 1.5;
     text-align: right;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.flex-row{
+    display:flex;
 }
