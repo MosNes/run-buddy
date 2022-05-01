@@ -45,7 +45,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     /* vw is viewport width, which will resize the text automatically */
     font-size: 1.55vw;
@@ -67,6 +67,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 
 }
 /* hero style end */
@@ -78,7 +79,7 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -135,7 +136,7 @@ section {
 
 .section-title {
     /* allows padding and margin to affect the formatting, but prevents the element from taking up the entire width of the container */
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     /* puts a space between the text and the bottom border line, and extends the border line out in 100px to the left and right */
     border-bottom: 3px solid;
@@ -359,4 +360,19 @@ footer div {
 
 .flex-row{
     display:flex;
+}
+
+/* MEDIA QUERY FOR SMALL DESKTOP SCREENS and smaller */
+@media screen and (max-width: 980px) {
+   
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+   
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
 }
